@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Font-Family start */
+@theme {
+    --font-saira: "Saira", sans-serif;
+    --font-rowdies: "Rowdies",
+        sans-serif;
+    --font-inter: "Inter",
+        sans-serif;
+}
+
+/* Font-Family end */
+
+/* common property start  */
+.container {
+    @apply max-w-[1320px] mx-auto
+}
+
+
+.flex-property {
+    @apply flex items-center
+}
+
+.bannerImgProperty {
+    @apply bg-no-repeat bg-center bg-cover
+}
+
+.btn {
+    @apply px-9 py-4 bg-linear-to-tr from-[#083F9B] to-[#7F56D9] rounded-[10px] text-white text-[20px] font-medium font-saira cursor-pointer hover:bg-linear-to-tr hover:from-transparent hover:to-transparent hover:text-[#4A4A4A]
+}
+
+/* common property end  */
+/* Headerpart start  */
+.menu-ul {
+    @apply flex gap-x-4 text-[#1B2336] font-saira text-[20px] font-medium
+}
+
+.menu-li {
+    @apply hover:text-[#2AAA94] duration-200
+}
+
+.menu-a {
+    @apply flex items-center gap-x-3
+}
+
+.menu-btn {
+    @apply text-[20px] font-medium font-saira
+}
+
+/* Headerpart end  */
+
+
+
+/* Bannerpart start  */
+.banner-h4 {
+    @apply text-white text-[18px] font-semibold font-saira
+}
+
+.banner-h1 {
+    @apply text-white text-[75px] font-rowdies w-165 leading-22 mt-5
+}
+
+.bannerBtn {
+    @apply px-9 py-4 rounded-[10px] cursor-pointer text-white text-[20px] font-medium font-saira border-[1px] border-white hover:border-transparent duration-200
+}
+
+/* Bannerpart end  */
