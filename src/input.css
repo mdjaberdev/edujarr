@@ -14,7 +14,7 @@
 
 /* common property start  */
 .container {
-    @apply max-w-[1320px] mx-auto
+    @apply w-[1320px] mx-auto
 }
 
 
