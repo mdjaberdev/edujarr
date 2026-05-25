@@ -285,8 +285,20 @@
   .w-115 {
     width: calc(var(--spacing) * 115);
   }
+  .w-\[33px\] {
+    width: 33px;
+  }
   .w-\[266px\] {
     width: 266px;
+  }
+  .w-\[330px\] {
+    width: 330px;
+  }
+  .w-\[333px\] {
+    width: 333px;
+  }
+  .w-\[335px\] {
+    width: 335px;
   }
   .w-\[477px\] {
     width: 477px;
@@ -566,6 +578,10 @@
   .leading-\[25px\] {
     --tw-leading: 25px;
     line-height: 25px;
+  }
+  .leading-\[27px\] {
+    --tw-leading: 27px;
+    line-height: 27px;
   }
   .leading-\[28px\] {
     --tw-leading: 28px;
