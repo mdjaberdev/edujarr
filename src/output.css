@@ -267,12 +267,6 @@
   .grid {
     display: grid;
   }
-  .table {
-    display: table;
-  }
-  .w-4 {
-    width: calc(var(--spacing) * 4);
-  }
   .w-4\.5 {
     width: calc(var(--spacing) * 4.5);
   }
@@ -291,23 +285,11 @@
   .w-\[333px\] {
     width: 333px;
   }
-  .w-\[435\] {
-    width: 435;
-  }
-  .w-\[435px\] {
-    width: 435px;
-  }
   .w-\[477px\] {
     width: 477px;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -335,9 +317,6 @@
   }
   .gap-x-5 {
     column-gap: calc(var(--spacing) * 5);
-  }
-  .gap-x-7 {
-    column-gap: calc(var(--spacing) * 7);
   }
   .gap-x-7\.5 {
     column-gap: calc(var(--spacing) * 7.5);
@@ -369,10 +348,6 @@
   .rounded-bl-\[20px\] {
     border-bottom-left-radius: 20px;
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-r {
     border-right-style: var(--tw-border-style);
     border-right-width: 1px;
@@ -401,12 +376,6 @@
     --tw-gradient-position: to top in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\'\.\/assets\/Banner\.png\'\)\] {
-    background-image: url('./assets/Banner.png');
-  }
-  .bg-\[url\(\'\.\/assets\/TBanner\.png\'\)\] {
-    background-image: url('./assets/TBanner.png');
-  }
   .bg-\[url\(\'\.\/assets\/bannerBg\.png\'\)\] {
     background-image: url('./assets/bannerBg.png');
   }
@@ -419,14 +388,8 @@
   .bg-\[url\(\'\.\/assets\/footerBanner\.png\'\)\] {
     background-image: url('./assets/footerBanner.png');
   }
-  .bg-\[url\(\'\.\/assets\/testBanner\.png\'\)\] {
-    background-image: url('./assets/testBanner.png');
-  }
   .bg-\[url\(\'\.\/assets\/testmonialBanner\.png\'\)\] {
     background-image: url('./assets/testmonialBanner.png');
-  }
-  .bg-\[url\(\'\.\/assets\/texBanner\.png\'\)\] {
-    background-image: url('./assets/texBanner.png');
   }
   .bg-\[url\(\'\.\/assets\/whylearnBanner\.png\'\)\] {
     background-image: url('./assets/whylearnBanner.png');
@@ -448,9 +411,6 @@
   .p-\[30px\] {
     padding: 30px;
   }
-  .px-4 {
-    padding-inline: calc(var(--spacing) * 4);
-  }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
@@ -469,9 +429,6 @@
   .py-60 {
     padding-block: calc(var(--spacing) * 60);
   }
-  .py-\[50p\] {
-    padding-block: 50p;
-  }
   .py-\[50px\] {
     padding-block: 50px;
   }
@@ -480,9 +437,6 @@
   }
   .pt-35 {
     padding-top: calc(var(--spacing) * 35);
-  }
-  .pt-\[1px\] {
-    padding-top: 1px;
   }
   .pt-\[115px\] {
     padding-top: 115px;
@@ -554,14 +508,6 @@
   .text-\[45px\] {
     font-size: 45px;
   }
-  .leading-0 {
-    --tw-leading: calc(var(--spacing) * 0);
-    line-height: calc(var(--spacing) * 0);
-  }
-  .leading-\[2\] {
-    --tw-leading: 2;
-    line-height: 2;
-  }
   .leading-\[25px\] {
     --tw-leading: 25px;
     line-height: 25px;
@@ -620,23 +566,11 @@
   .text-\[\#324361\] {
     color: #324361;
   }
-  .text-\[\#\] {
-    color: #;
-  }
-  .text-\[2\] {
-    color: 2;
-  }
-  .text-\[35\] {
-    color: 35;
-  }
   .text-primary {
     color: var(--color-primary);
   }
   .text-white {
     color: var(--color-white);
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .shadow-\[0px_4px_4px_0px_rgba\(217\,236\,255\,0\.5\)\] {
     --tw-shadow: 0px 4px 4px 0px var(--tw-shadow-color, rgba(217,236,255,0.5));
@@ -645,10 +579,6 @@
   .shadow-\[0px_4px_35px_0px_rgba\(121\,110\,234\,0\.08\)\] {
     --tw-shadow: 0px 4px 35px 0px var(--tw-shadow-color, rgba(121,110,234,0.08));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .outline-0 {
     outline-style: var(--tw-outline-style);
