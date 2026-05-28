@@ -213,6 +213,9 @@
   .my-\[50px\] {
     margin-block: 50px;
   }
+  .my-\[120px\] {
+    margin-block: 120px;
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -246,6 +249,12 @@
   .mt-\[50px\] {
     margin-top: 50px;
   }
+  .mt-\[52px\] {
+    margin-top: 52px;
+  }
+  .mt-\[65px\] {
+    margin-top: 65px;
+  }
   .mt-\[75px\] {
     margin-top: 75px;
   }
@@ -267,6 +276,12 @@
   .grid {
     display: grid;
   }
+  .table {
+    display: table;
+  }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
   .w-4\.5 {
     width: calc(var(--spacing) * 4.5);
   }
@@ -279,6 +294,9 @@
   .w-115 {
     width: calc(var(--spacing) * 115);
   }
+  .w-\[7\] {
+    width: 7;
+  }
   .w-\[266px\] {
     width: 266px;
   }
@@ -288,8 +306,23 @@
   .w-\[477px\] {
     width: 477px;
   }
+  .w-\[755\] {
+    width: 755;
+  }
+  .w-\[755px\] {
+    width: 755px;
+  }
+  .w-\[775px\] {
+    width: 775px;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .cursor-pointer {
     cursor: pointer;
+  }
+  .resize {
+    resize: both;
   }
   .grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -318,6 +351,9 @@
   .gap-x-5 {
     column-gap: calc(var(--spacing) * 5);
   }
+  .gap-x-7 {
+    column-gap: calc(var(--spacing) * 7);
+  }
   .gap-x-7\.5 {
     column-gap: calc(var(--spacing) * 7.5);
   }
@@ -333,6 +369,9 @@
   .gap-x-\[90px\] {
     column-gap: 90px;
   }
+  .gap-x-\[150px\] {
+    column-gap: 150px;
+  }
   .rounded-\[20px\] {
     border-radius: 20px;
   }
@@ -347,6 +386,10 @@
   }
   .rounded-bl-\[20px\] {
     border-bottom-left-radius: 20px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-r {
     border-right-style: var(--tw-border-style);
@@ -516,6 +559,14 @@
     --tw-leading: 27px;
     line-height: 27px;
   }
+  .leading-\[28\] {
+    --tw-leading: 28;
+    line-height: 28;
+  }
+  .leading-\[28ox\] {
+    --tw-leading: 28ox;
+    line-height: 28ox;
+  }
   .leading-\[28px\] {
     --tw-leading: 28px;
     line-height: 28px;
@@ -523,6 +574,10 @@
   .leading-\[35px\] {
     --tw-leading: 35px;
     line-height: 35px;
+  }
+  .leading-\[60px\] {
+    --tw-leading: 60px;
+    line-height: 60px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -572,6 +627,9 @@
   .text-white {
     color: var(--color-white);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .shadow-\[0px_4px_4px_0px_rgba\(217\,236\,255\,0\.5\)\] {
     --tw-shadow: 0px 4px 4px 0px var(--tw-shadow-color, rgba(217,236,255,0.5));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -579,6 +637,10 @@
   .shadow-\[0px_4px_35px_0px_rgba\(121\,110\,234\,0\.08\)\] {
     --tw-shadow: 0px 4px 35px 0px var(--tw-shadow-color, rgba(121,110,234,0.08));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .outline-0 {
     outline-style: var(--tw-outline-style);
